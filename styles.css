@@ -9,3 +9,28 @@ body {
     background-color: #dadada;
     color: #333;
 }
+
+header {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(75, 25, 25);
+
+    nav ul {
+        list-style-type: none;
+
+        li {
+            display: inline;
+            margin: 0 1rem;
+            
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+                transition: .5s;
+            }
+        }
+    }
+}
