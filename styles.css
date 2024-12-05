@@ -82,6 +82,7 @@ header {
     }
 
     article {
+        font-size: 15px;
         padding: 8px;
     }
 }
@@ -185,6 +186,11 @@ footer {
         div {
             padding: 10px 10px 50px 10px;
         }
+    }
+
+    .images img{
+        width: 28%;
+        margin-left: 13px;
     }
 }
 
