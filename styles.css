@@ -73,6 +73,26 @@ header {
     }
 }
 
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    img {
+        width: 30%;
+        margin-bottom: 1rem;
+        border: 5px solid rgb(75, 25, 25);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+
+
+
+
+
+
 @media (min-width: 1200px) {
     .page {
         margin: 50px 200px 50px 200px;
@@ -129,7 +149,7 @@ header {
         font-size: 13px;
 
         div {
-            padding: 10px 10px 80px 10px;
+            padding: 10px 10px 90px 10px;
         }
     }
 }
