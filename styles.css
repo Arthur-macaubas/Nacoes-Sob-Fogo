@@ -35,7 +35,7 @@ header {
         li {
             display: inline;
             margin: 0 1rem;
-            
+
             a {
                 color: #fff;
                 text-decoration: none;
@@ -164,6 +164,13 @@ footer {
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
+
+    .icon {
+        position: absolute;
+        width: 50px;
+        margin-left: 230px;
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -171,6 +178,13 @@ footer {
         margin: 50px 80px 50px 80px;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon {
+        position: absolute;
+        width: 50px;
+        margin-left: 110px;
+        margin-top: 15px;
     }
 
     .title {
@@ -211,6 +225,13 @@ footer {
         margin: 25px 30px 25px 30px;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon {
+        position: absolute;
+        width: 50px;
+        margin-left: 60px;
+        margin-top: 15px;
     }
 
     .title {
