@@ -3,27 +3,7 @@
     --emphasisColor: #1B2A49;
 
     --fontsColor: #2E2E2E;
-    --testColor: #5A3D31;
     
     --backgroundColor: #8C8C8C;
     --pageColor: #F5F5F5;
 }
-
-/* :root {
-    --primaryColor: #5E0000;
-    --emphasisColor: #14213D;
-
-    --fontsColor: #1C1C1C;
-    --testColor: #6B3E26;
-    
-    --backgroundColor: #A29F9F;
-    --pageColor: #EAEAEA;
-} */
-
-/* Elemento	Código Original	Novo Código	Motivo da Mudança
-Fundo da Página	#A29F9F	#8C8C8C	Menos brilho, menos cansaço visual.
-Texto Principal	#1C1C1C	#2E2E2E	Melhor leitura sem ser tão agressivo.
-Destaques (Títulos, Botões)	#14213D	#1B2A49	Melhor contraste e impacto.
-Alertas e Avisos	#5E0000	#7A0202	Vermelho mais intenso para chamar atenção.
-Bordas e Separadores	#6B3E26	#5A3D31	Combina melhor com o resto da paleta.
-Fundo dos Blocos de Texto	#EAEAEA	#F5F5F5	Deixa a leitura mais confortável. */
