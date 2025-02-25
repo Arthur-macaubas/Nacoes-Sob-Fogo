@@ -43,7 +43,7 @@ header {
 }
 
 .title {
-    background: url(images/discussoes.jpg) no-repeat center/cover;
+    background: url(images/cronologia.jpeg) no-repeat center/cover;
     padding: 70px 20px;
     text-align: center;
 
@@ -119,7 +119,7 @@ header {
 }
 
 #dois {
-    background: url(images/cronologia.jpeg) no-repeat center/cover;
+    background: url(images/discussoes.jpg) no-repeat center/cover;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 

@@ -36,39 +36,14 @@ header {
 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
-    nav ul {
-        list-style-type: none;
-
-        li {
-            display: inline;
-            margin: 0 1rem;
-
-            a {
-                color: var(--pageColor);
-                text-decoration: none;
-                text-decoration-color: transparent;
-                font-weight: bold;
-                transition: .5s;
-            }
-
-            a:hover {
-                text-decoration: underline var(--pageColor);
-                background-color: var(--primaryColor);
-                padding: 5px;
-                border-radius: 4px;
-            }
-
-            .moment {
-                background-color: var(--primaryColor);
-                padding: 5px;
-                border-radius: 4px;
-            }
-        }
+    h1 {
+        color: var(--pageColor);
+        margin-top: -12px;
     }
 }
 
 .title {
-    background: url(images/initial-background.jpg) no-repeat center/cover;
+    background: url(images/introducao.jpg) no-repeat center/cover;
     padding: 70px 20px;
     text-align: center;
 
@@ -94,8 +69,93 @@ header {
     }
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre as caixas */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    background-color: var(--fontsColor);
+    border: 3px;
+    padding: 5px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-style: solid;
+    border-color: var(--primaryColor);
+
+    a {
+        text-decoration: none;
+    }
+}
+.box {
+
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.box:hover {
+    color: aliceblue;
+}
+
+#um{
+    background: url(images/discussoes.jpg) no-repeat center/cover;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    h2 {
+        backdrop-filter: blur(3px);
+        background: rgba(255, 255, 255, 0.2);
+        
+        border-radius: 12px;
+        color: black;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    }
+}
+
+#dois {
+    background: url(images/cronologia.jpeg) no-repeat center/cover;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    h2 {
+        backdrop-filter: blur(3px);
+        background: rgba(255, 255, 255, 0.2);
+        
+        border-radius: 12px;
+        color: black;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    }
+}
+
+#tres{
+    background: url(images/migracoes.jpg) no-repeat center/cover;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    h2 {
+        backdrop-filter: blur(3px);
+        background: rgba(255, 255, 255, 0.2);
+        
+        border-radius: 12px;
+        color: black;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    }
+}
+
+.box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
 .content {
-    
+    text-align: justify;
 
     h2{
         text-align: center;
@@ -147,17 +207,73 @@ header {
 }
 
 footer {
-    background-color: 	#1C1C1C;
-    color: var(--pageColor);
-
-    border-top: 5px solid var(--primaryColor);
-    border-bottom: 5px solid var(--primaryColor);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-
-
-    padding: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-top: 2px solid var(--primaryColor); /* Borda mais fina */
+    border-bottom: 2px solid var(--primaryColor);
 }
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+
+.footer-column p {
+    font-size: 0.9em;
+}
+
+.dev {
+    margin-top: 10px;
+}
+
+.dev b {
+    color: var(--primaryColor);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.social-links a img {
+    background-color: var(--primaryColor);
+    border-radius: 10px;
+    width: 30px;
+    padding: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-links a img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #aaa;
+    font-size: 0.8em;
+}
+
 
 
 
