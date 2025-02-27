@@ -187,7 +187,7 @@ header {
     padding: 40px 10px;
     text-align: center;
 
-    .btn, .btn2{
+    .btn {
         padding: 0.75rem 1.5rem;
         text-decoration: none;
         font-weight: bold;
@@ -197,11 +197,6 @@ header {
 
     .btn{
         background-color: var(--primaryColor);
-        color: var(--pageColor);
-    }
-
-    .btn2 {
-        background-color: #0a78d3;
         color: var(--pageColor);
     }
 }
@@ -234,6 +229,11 @@ footer {
 
 .footer-column p {
     font-size: 0.9em;
+}
+
+.footer-column a {
+    color: var(--primaryColor);
+    font-size: 1.0em;
 }
 
 .dev {
@@ -279,7 +279,29 @@ footer {
 
 
 
+@media (min-width: 1230px) and (max-width: 1295px) {
+    #dois h2 { 
+        backdrop-filter: blur(3px);
+        background: rgba(255, 255, 255, 0.2);
+        padding: 15px;
 
+
+        border-radius: 12px;
+        color: black;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    #um h2 { 
+        backdrop-filter: blur(3px);
+        background: rgba(255, 255, 255, 0.2);
+        padding: 1px;
+
+
+        border-radius: 12px;
+        color: black;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    }
+}
 
 @media (min-width: 1200px) {
     .page {
@@ -293,6 +315,30 @@ footer {
         width: 50px;
         margin-left: 230px;
         margin-top: 15px;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1054px) {
+    #dois h2 { 
+        backdrop-filter: blur(3px);
+        background: rgba(255, 255, 255, 0.2);
+        padding: 15px;
+
+
+        border-radius: 12px;
+        color: black;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    #um h2 { 
+        backdrop-filter: blur(3px);
+        background: rgba(255, 255, 255, 0.2);
+        padding: 1px;
+
+
+        border-radius: 12px;
+        color: black;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
     }
 }
 
@@ -315,12 +361,21 @@ footer {
         flex: content;
         font-size: 13px;
         div {
-            padding: auto;
+            display: flex;
+            flex-flow: column;
+            margin: auto;
+            position: relative;
+    
+            height: auto;
+            width: auto;
+    
+            /*cima-direita-baixo-esquerda*/
+            padding: 10px 10px 5px 10px;
         }
     }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 641px) and (max-width: 767px) {
     .page {
         margin: 25px 30px 25px 30px;
         border-radius: 10px;
@@ -340,12 +395,28 @@ footer {
         font-size: 13px;
 
         div {
-            padding: 10px 10px 90px 10px;
+            display: flex;
+            flex-flow: column;
+            margin: auto;
+            position: relative;
+    
+            height: auto;
+            width: auto;
+    
+            /*cima-direita-baixo-esquerda*/
+            padding: 10px 10px 5px 10px;
         }
     }
 }
 
-@media (max-width: 670px) {
+@media (min-width: 535px) and (max-width: 640px) {
+    .icon {
+        position: absolute;
+        width: 30px;
+        margin-left: 49px;
+        margin-top: 25px;
+    }
+
     .page {
         margin: 25px 30px 25px 30px;
         border-radius: 10px;
@@ -358,7 +429,16 @@ footer {
         font-size: 13px;
 
         div {
-            padding: 10px 10px 50px 10px;
+            display: flex;
+            flex-flow: column;
+            margin: auto;
+            position: relative;
+    
+            height: auto;
+            width: auto;
+    
+            /*cima-direita-baixo-esquerda*/
+            padding: 10px 10px 5px 10px;
         }
     }
 
@@ -368,11 +448,40 @@ footer {
     }
 }
 
-@media (max-width: 535px) {
+@media (min-width:200px) and (max-width: 535px) {
     .icon {
         position: absolute;
         width: 30px;
         margin-left: 49px;
         margin-top: 25px;
+    }
+    .page {
+        margin: 25px 30px 25px 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .title {
+        display: flex;
+        flex: content;
+        font-size: 13px;
+
+        div {
+            display: flex;
+            flex-flow: column;
+            margin: auto;
+            position: relative;
+    
+            height: auto;
+            width: auto;
+    
+            /*cima-direita-baixo-esquerda*/
+            padding: 10px 10px 5px 10px;
+        }
+    }
+
+    .images img{
+        width: 28%;
+        margin-left: 13px;
     }
 }
